@@ -1,0 +1,39 @@
+.header-container {
+  display: flex;
+  padding: 35px;
+  justify-content: space-between;
+  align-items: center;
+}
+.brand {
+  display: flex;
+  align-items: center;
+}
+.brand-name {
+  padding-left: 10px;
+  font-size: 24px;
+  font-weight: 900;
+}
+.right-nav-menu {
+  display: flex;
+  align-items: center;
+}
+ul {
+  list-style: none;
+  display: flex;
+}
+nav li {
+  font-family: "Raleway", sans-serif;
+  padding: 0 10px;
+  font-size: 16px;
+  text-decoration: underline double #7bc043 3px;
+}
+.button-style {
+  font-family: "Raleway", sans-serif;
+  margin-left: 20px;
+  padding: 6px 20px;
+  background-color: #7bc043;
+  color: white;
+  font-size: 14px;
+  border: none;
+  text-decoration: none;
+}
