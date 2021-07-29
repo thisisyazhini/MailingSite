@@ -8,8 +8,8 @@ function FirstSection() {
           Create Stunning <br /> Email Campaigns
         </p>
         <p className="sub-title">
-          Create and launch email campaigns that captivate <br />
-          your customers in just a few clicks.
+          Create and launch email campaigns that captivate your customers in
+          just a few clicks.
         </p>
         <div className="button-section">
           <button className="green-button">TRY NOW</button>

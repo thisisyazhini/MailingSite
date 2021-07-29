@@ -50,3 +50,39 @@
   max-width: 680px;
   margin-left: -81px;
 }
+@media screen and (device-width: 360px) and (device-height: 640px) {
+  .first-section {
+    padding-top: 0px;
+    margin: 0 15px;
+    flex-direction: column;
+    position: relative;
+  }
+  .title {
+    font-size: 43px;
+  }
+  .first-section img {
+    position: absolute;
+    top: 75px;
+    max-width: 320px;
+    margin: 0 10px;
+  }
+  .sub-title {
+    margin-top: 65px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+  }
+  .button-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  .green-button {
+    margin-right: 0;
+    font-size: 13px;
+    padding: 10px 40px;
+  }
+  .white-button {
+    font-size: 13px;
+    padding: 10px 40px;
+  }
+}

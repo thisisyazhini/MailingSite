@@ -10,3 +10,18 @@
   font-weight: 700;
   font-size: 11px;
 }
+@media screen and (device-width: 360px) and (device-height: 640px) {
+  .copyright-info {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  .link {
+    line-height: 40px;
+    font-size: 17px;
+  }
+  .link:nth-child(1) {
+    margin-bottom: 50px;
+  }
+}

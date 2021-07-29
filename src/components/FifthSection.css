@@ -3,17 +3,11 @@
   max-width: 944px;
   margin: auto;
 }
-.text {
-  font-size: 32px;
-  font-family: "Playfair Display", sans-serif;
-  font-weight: 900;
-  line-height: 36px;
-  text-align: center;
-}
 .logo-section {
   padding-top: 3%;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .logo-section img {
   transform: scale(0.75);
@@ -32,4 +26,29 @@
   font-weight: 900;
   text-align: center;
   font-family: "Playfair Display", sans-serif;
+}
+@media screen and (device-width: 360px) and (device-height: 640px) {
+  .fifth-section {
+    padding: 0;
+  }
+  .logo-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding: 25px 0 50px;
+  }
+  .logo-section > div:last-child {
+    grid-column: span 2;
+  }
+  .logo-section img {
+    padding-top: 10px;
+    text-align: center;
+  }
+  .campaign {
+    padding: 25px 0;
+  }
+  .desc {
+    padding: 35px 0;
+    font-size: 45px;
+  }
 }

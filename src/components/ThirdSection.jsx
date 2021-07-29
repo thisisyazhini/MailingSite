@@ -9,7 +9,7 @@ function ThirdSection() {
         src="/assets/thumb2.jpg"
         alt="how-to-build-and-share"
       />
-      <div>
+      <div className="description">
         <p className="heading">
           The source for proven, engaging email campaigns
         </p>

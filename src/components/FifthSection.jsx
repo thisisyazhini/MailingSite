@@ -11,11 +11,21 @@ function FifthSection() {
           </p>
         </div>
         <div className="logo-section">
-          <img src="/assets/Logo1.jpg" alt="last-knight-logo" />
-          <img src="/assets/Logo2.jpg" alt="dragon-eye-logo" />
-          <img src="/assets/Logo3.jpg" alt="Quest-al-logo" />
-          <img src="/assets/Logo4.jpg" alt="radio-tee-logo" />
-          <img src="/assets/Logo5.jpg" alt="game-commer-logo" />
+          <div>
+            <img src="/assets/Logo1.jpg" alt="last-knight-logo" />
+          </div>
+          <div>
+            <img src="/assets/Logo2.jpg" alt="dragon-eye-logo" />
+          </div>
+          <div>
+            <img src="/assets/Logo3.jpg" alt="Quest-al-logo" />
+          </div>
+          <div>
+            <img src="/assets/Logo4.jpg" alt="radio-tee-logo" />
+          </div>
+          <div>
+            <img src="/assets/Logo5.jpg" alt="game-commer-logo" />
+          </div>
         </div>
       </div>
       <div className="campaign">

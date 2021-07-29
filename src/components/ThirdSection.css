@@ -29,3 +29,27 @@
   line-height: 20px;
   text-align: left;
 }
+@media screen and (device-width: 360px) and (device-height: 640px) {
+  .third-section {
+    padding: 0 15px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .third-section img {
+    max-width: 209px;
+    max-height: 290px;
+  }
+  .img-placement {
+    margin-top: 0;
+    margin-left: auto;
+  }
+  .description {
+    max-width: 232px;
+    margin-left: 40px;
+  }
+  .heading {
+    margin-top: 0;
+    font-size: 28px;
+  }
+}

@@ -17,8 +17,8 @@ function FourthSection() {
         <button type="submit" className="join-button">
           JOIN OUR LIST
         </button>
+        <p className="green-text">Thanks! Email received.</p>
       </form>
-      <p className="green-text">Thanks! Email received.</p>
     </div>
   );
 }

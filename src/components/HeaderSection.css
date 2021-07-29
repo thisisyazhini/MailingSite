@@ -37,3 +37,11 @@ nav li {
   border: none;
   text-decoration: none;
 }
+@media screen and (device-width: 360px) and (device-height: 640px) {
+  nav {
+    display: none;
+  }
+  .brand-name {
+    font-size: 14px;
+  }
+}

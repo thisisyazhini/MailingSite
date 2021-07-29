@@ -5,3 +5,11 @@
   max-width: 800px;
   max-height: 531px;
 }
+@media screen and (device-width: 360px) and (device-height: 640px) {
+  .second-section {
+    padding: 15px;
+  }
+  .second-section img {
+    width: 100%;
+  }
+}
