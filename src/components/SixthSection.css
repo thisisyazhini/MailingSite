@@ -1,0 +1,60 @@
+.sixth-section {
+  padding-top: 65px;
+  max-width: 955px;
+  margin: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.footer-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 563px;
+  gap: 50px;
+}
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.links {
+  margin-bottom: 7px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+}
+.brand-name {
+  padding-left: 10px;
+  font-size: 24px;
+  font-weight: 900;
+}
+@media screen and (device-width: 360px) and (device-height: 640px) {
+  .sixth-section {
+    padding: 25px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer-section {
+    grid-template-areas:
+      "one  three"
+      "two four";
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .footer-links:nth-child(1) {
+    grid-area: one;
+  }
+  .footer-links:nth-child(2) {
+    grid-area: two;
+  }
+  .footer-links:nth-child(3) {
+    grid-area: three;
+  }
+  .footer-links:nth-child(4) {
+    grid-area: four;
+  }
+}

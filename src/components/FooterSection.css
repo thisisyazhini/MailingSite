@@ -1,0 +1,27 @@
+.copyright-info {
+  max-width: 955px;
+  display: grid;
+  grid-template-columns: 2fr repeat(2, 1fr);
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+}
+@media screen and (device-width: 360px) and (device-height: 640px) {
+  .copyright-info {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  .link {
+    line-height: 40px;
+    font-size: 17px;
+  }
+  .link:nth-child(1) {
+    margin-bottom: 50px;
+  }
+}
